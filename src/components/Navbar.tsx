@@ -71,7 +71,7 @@ export const Navbar = () => {
             <div className={`flex flex-col items-end text-sm font-medium ${isScrolled ? 'text-brand-dark' : 'text-white'}`}>
               <a href="tel:+420123456789" className="flex items-center gap-2 hover:text-brand-red transition-colors">
                 <Phone size={16} className="text-brand-red" />
-                +420 123 456 789
+                +420 734 288 260
               </a>
               <a href="mailto:info@strechy-krist.cz" className="flex items-center gap-2 text-xs opacity-80 hover:text-brand-red transition-colors">
                 <Mail size={12} className="text-brand-red" />
@@ -107,9 +107,9 @@ export const Navbar = () => {
               </a>
             ))}
             <div className="px-3 pt-6 flex flex-col gap-3 text-white">
-              <a href="tel:+420123456789" className="flexItems-center gap-3">
+              <a href="tel:+420734288260" className="flexItems-center gap-3">
                 <Phone size={20} className="text-brand-red" />
-                <span className="text-lg">+420 123 456 789</span>
+                <span className="text-lg">+420 734 288 260</span>
               </a>
               <a href="mailto:info@strechy-krist.cz" className="flexItems-center gap-3">
                 <Mail size={20} className="text-brand-red" />

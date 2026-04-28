@@ -9,7 +9,7 @@ export const About = () => {
           
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1508873535925-8b4e7235b64c?q=80&w=2069&auto=format&fit=crop" 
+              src="/images/pokryvaci.jpg" 
               alt="Pokrývači při pokládce krytiny na střeše" 
               className="w-full h-auto object-cover rounded-sm shadow-xl aspect-[4/3]"
             />

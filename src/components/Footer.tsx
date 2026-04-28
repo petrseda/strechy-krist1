@@ -38,7 +38,7 @@ export const Footer = () => {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
           <p>&copy; {new Date().getFullYear()} Střechy KRIST. Všechna práva vyhrazena.</p>
-          <p>Navrženo profesionálně s důrazem na kvalitu.</p>
+          <p>Návrh připravil Petr ŠEĎA.</p>
         </div>
       </div>
     </footer>

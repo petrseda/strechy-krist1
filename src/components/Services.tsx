@@ -3,28 +3,28 @@ import { Home, LayoutGrid, Hammer, Wrench, Wind } from 'lucide-react';
 
 const services = [
   {
-    title: 'Šikmé střechy',
-    description: 'Kompletní realizace a rekonstrukce šikmých střech z pálených střech tašek i betonových krytin s důrazem na detail.',
+    title: 'Pokryvačství',
+    description: 'Provádíme suchou pokládku pálených, betonových tašek čí asfaltových šindelů na Váš rodinný či bytový dům bez vyjímky památkových staveb.',
     icon: Home,
   },
   {
-    title: 'Ploché střechy',
-    description: 'Moderní hydroizolace plochých střech z PVC, TPO fólií a asfaltových pásů s garantovanou těsností.',
+    title: 'Izolace',
+    description: 'Naše firma provádí hydroizolaci spodních staveb. Izolace plochých střech, balkonů a teras se zateplením.',
     icon: LayoutGrid,
   },
   {
     title: 'Tesařství',
-    description: 'Precizní výroba a montáž klasických krovů i vazníkových konstrukcí na míru vašim požadavkům.',
+    description: 'Zajistíme dodávku řeziva, montáž krovů, vazníků, latování, foliování, bednění, montáž podhledů. Výstavba altánů, teras či pergol.',
     icon: Hammer,
   },
   {
     title: 'Klempířství',
-    description: 'Instalace okapových systémů, oplechování komínů a výroba atypických prvků z kvalitních plechů.',
+    description: 'Provádíme veškerou výrobu a montáž stavebních klempířských prvků.',
     icon: Wrench,
   },
   {
-    title: 'Izolace',
-    description: 'Nadkrokevní a mezikrokevní izolace pro maximální energetickou úsporu a tepelný komfort.',
+    title: 'Natěračské práce',
+    description: 'Provádíme nátěry rovných střech asfaltovým tmelem + reflexivním nátěrem. Také nátěry šikmých střech ekologickými akrylátovými nátěry.',
     icon: Wind,
   },
 ];

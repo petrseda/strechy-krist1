@@ -1,12 +1,12 @@
 import React from 'react';
 
-const placeholders = [
-  'https://images.unsplash.com/photo-1605282717013-145789f6fcaf?q=80&w=800&auto=format&fit=crop', // Roof detail
-  'https://images.unsplash.com/photo-1541888086925-920f0fd5b62d?q=80&w=800&auto=format&fit=crop', // House wide
-  'https://images.unsplash.com/photo-1628178122607-1bcf3e2840d8?q=80&w=800&auto=format&fit=crop', // Wood structure
-  'https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?q=80&w=800&auto=format&fit=crop', // Modern roof 
-  'https://images.unsplash.com/photo-1590725140246-20addd8cb1c4?q=80&w=800&auto=format&fit=crop', // Renovation
-  'https://images.unsplash.com/photo-1509600110300-21b9d5fedeb7?q=80&w=800&auto=format&fit=crop', // Brick pattern
+const projects = [
+  { src: '/images/palena-krytina.jpg', label: 'Pálená krytina' },
+  { src: '/images/betonova-krytina.jpg', label: 'Betonová krytina' },
+  { src: '/images/asfaltove-pasy.jpg', label: 'Asfaltové pásy' },
+  { src: '/images/pvc-pasy.jpg', label: 'PVC pásy' },
+  { src: '/images/vapnocement.jpg', label: 'Vápnocement' },
+  { src: '/images/kostel.jpg', label: 'Rekonstrukce kostela' },
 ];
 
 export const Gallery = () => {
@@ -26,15 +26,15 @@ export const Gallery = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {placeholders.map((src, idx) => (
+          {projects.map((project, idx) => (
             <div key={idx} className="group relative overflow-hidden aspect-[4/3] bg-gray-800">
               <img 
-                src={src} 
-                alt={`Reference realizace ${idx + 1}`} 
+                src={project.src} 
+                alt={project.label} 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80 group-hover:opacity-100"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                <span className="text-white font-medium text-lg">Zobrazit realizaci</span>
+                <span className="text-white font-medium text-lg">{project.label}</span>
               </div>
             </div>
           ))}
